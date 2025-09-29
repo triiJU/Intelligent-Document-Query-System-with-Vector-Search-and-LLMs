@@ -40,9 +40,10 @@ pip install -r requirements.txt
 * Add binaries to your system PATH
 
 5. Set environment variables (for LLM or embedding providers) in `.env`:
+   
+OPENAI_API_KEY and HUGGINGFACEHUB_API_TOKEN
 
 ```
-OPENAI_API_KEY and HUGGINGFACEHUB_API_TOKEN
 EMBEDDING_MODEL=text-embedding-3-small
 LLM_MODEL=gpt-4o-mini
 ```
