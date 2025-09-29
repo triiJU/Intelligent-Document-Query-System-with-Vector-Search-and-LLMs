@@ -1,4 +1,4 @@
-Intelligent Document Query System with Vector Search and LLMs
+# Intelligent Document Query System with Vector Search and LLMs
 
 A Streamlit-based application that lets you upload or index documents, convert them into embeddings, and ask natural-language questions whose answers are grounded in the original sources. Combines OCR for scanned PDFs with semantic vector search and large language models (LLMs).
 
@@ -42,8 +42,7 @@ pip install -r requirements.txt
 5. Set environment variables (for LLM or embedding providers) in `.env`:
 
 ```
-OPENAI_API_KEY=your_api_key
-HUGGINGFACEHUB_API_TOKEN=your_api_token
+OPENAI_API_KEY and HUGGINGFACEHUB_API_TOKEN
 EMBEDDING_MODEL=text-embedding-3-small
 LLM_MODEL=gpt-4o-mini
 ```
